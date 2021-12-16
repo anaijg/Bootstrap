@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/estilos.css">    
+
+<title>Ejemplos Bootstrap</title>
+</head>
+<body>
+    <div class="container"> <!-- Dentro de este container va todo el código de la página-->
+        <!-- Dentro del container tenemos que organizar todo en filas-->
+        <div class="row m-1">
+            <div class="col bg-primary p-2">.col</div>
+            <div class="col bg-light p-2">.col</div>
+            <div class="col bg-primary p-2">.col</div>       
+        </div>
+        <div class="row m-1">
+            <div class="col-sm-4 bg-danger p-2">.col-sm-4</div>
+            <div class="col-sm-2 bg-success p-2">.col-sm-2</div>
+            <div class="col-sm-4 bg-danger p-2">.col-sm-4</div>
+            <div class="col-sm-2 bg-success p-2">.col-sm-2</div>
+        </div>
+        <div class="row m-1">
+            <div class="col-md-8 bg-warning p-2">.col-md</div>
+            <div class="col-md-4 bg-dark text-white p-2">.col-md</div>
+        </div>
+        <div class="row  m-1 bg-info">
+            <h1 class="text-center">Encabezado grande</h1>
+            <h6 class="text-end">Encabezado pequeño</h6>
+        </div>
+        <div class="row bg-dark text-white m-1">
+            <h1 class="display-1">Encabezado display</h1>
+            <h6 class="display-6">Encabezado display más pequeño</h6>
+        </div>
+        <div class="row bg-primary text-white p-3">
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel enim sit amet est eleifend lacinia eu in ipsum. Sed non odio quis erat placerat aliquam. <mark>Duis vitae quam maximus, fringilla felis sit amet, porttitor urna.</mark> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec suscipit mattis tortor id luctus. Fusce commodo ultricies nunc, non porttitor magna semper a. Sed non posuere sapien. Cras dignissim odio sit amet fringilla tempus. Sed ultrices porta placerat. Maecenas placerat interdum elit. Donec hendrerit leo sit amet mi egestas, sit amet iaculis mauris porttitor. Sed sit amet augue feugiat tortor mattis aliquam. Praesent consequat interdum turpis sit amet porttitor. Sed lectus dui, scelerisque eget ultrices quis, scelerisque quis metus. Ut tempor efficitur nulla, vitae consectetur nulla venenatis sit amet. In sit amet pretium est, vel vestibulum nisi.</p> 
+        </div>
+        <div class="row">
+            <blockquote class="blockquote">
+                Winter is coming
+            </blockquote>
+        </div>       
+        <p><code>blockquote</code> es código. <code>class</code> también.</p>
+        <p>Pulsa <kbd>ctrl-z</kbd> si quierees deshacer la últma acción.</p>
+        
+        <table class="table">
+            <tr class="bg-primary"><th>Animal</th><th>H</th><th>M</th></tr>
+            <tr><td>Perro</td><td class="bg-info">6</td><td>1</td></tr>
+            <tr><td>Gato</td><td>4</td><td>1</td></tr>
+            <tr><td>Otros</td><td>3</td><td>1</td></tr>
+        </table>
+        
+        <div class="mt-4 p-5 fondo_morado texto_morado">
+            <h1>Jumbotron de palo</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent facilisis purus vulputate tincidunt malesuada. Integer quis dolor cursus, ultricies dolor blandit, ornare mi. Nam commodo tempus quam, tristique gravida libero sollicitudin a. Nam sed lectus sed nisl eleifend sollicitudin id a dolor. Ut finibus nibh eget lorem luctus elementum. Suspendisse eu convallis turpis. Etiam eu condimentum dui. Fusce odio mauris, euismod eu gravida euismod, lobortis vel augue. Pellentesque vitae auctor eros. Donec in ullamcorper augue, vel venenatis ligula. Pellentesque feugiat ornare tellus quis pretium. Quisque ac nisl auctor, bibendum nulla sed, fermentum risus. In sed rutrum nisl, vel sagittis dolor. Morbi a tellus magna.</p>
+        </div>
+
+         
+        <img src="img/newyork.jpg" alt="New York" class="rounded-circle float-start">
+        <img src="img/paris.jpg" alt "Paris" class="rounded-circle float-end">
+        <img src="img/sanfran.jpg" alt="San Francisco" class="rounded-circle mx-auto d-block">
+
+        <div class="mt-4 p-5">
+            <button type="button" class="col m-1 btn">Basic</button>
+            <button type="button" class="col m-1 btn btn-primary">Primary</button>
+            <button type="button" class="col m-1 btn btn-secondary">Secondary</button>
+            <button type="button" class="col m-1 btn btn-success">Success</button>
+            <button type="button" class="col m-1 btn btn-info">Info</button> 
+            <button type="button" class="col m-1 btn btn-warning">Warning</button>
+            <button type="button" class="col m-1 btn btn-danger">Danger</button>
+            <button type="button" class="col m-1 btn btn-dark">Dark</button>
+            <button type="button" class="col m-1 btn btn-light">Light</button>
+            <button type="button" class="col m-1 btn btn-link">Link</button> 
+        </div>
+
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+            <li class="page-item"><a class="page-link" href="acercade.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="contacto.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="acercade.html">Siguiente</a></li>
+          </ul>
+        
+    </div>   
+</body>
+</html>
